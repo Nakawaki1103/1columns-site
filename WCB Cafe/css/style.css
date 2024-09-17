@@ -45,12 +45,6 @@ img {
 .main-nav a:hover {
     color: #0bd;
 }
-.page-title {
-    font-size: 3rem;
-    text-align: center;
-    margin-top: 2rem;
-    line-height: 1.4;
-}
 .cover {
     background-size: cover;
     background-position: center bottom;
@@ -58,4 +52,36 @@ img {
 }
 .cover-home {
     background-image: url(../images/cover-home-s.webp);
+}
+.about {
+    max-width: 736px;
+    padding:0.15rem;
+    margin: 3rem auto 4rem;
+}
+.about p {
+    margin-bottom: 3rem;
+}
+.page-title,
+.heading-large {
+    font-size: 3rem;
+    text-align: center;
+}
+.heading-large {
+    margin-bottom: 1rem;
+}
+.page-title {
+    margin-top: 2rem;
+    line-height: 1.4;
+}
+/* ボタン */
+.btn {
+    display: inline-block;
+    font-size: 1.5rem;
+    background-color: #0bd;
+    color: #fff;
+    border-radius: 8px;
+    padding: .75rem 1.5rem;
+}
+.btn:hover {
+    background-color: #0090aa;
 }
