@@ -116,7 +116,7 @@ img {
 .post .otoiawase .mail::before {
     content: url(../images/mail_ver2.png);
     position: absolute;
-    /* inset: 21px 0 0 -120px; */
+    inset: 21px 0 0 248px;
     display: inline-block;
     width: 30px;
 }
